@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class UsuarioDTO {
-    
+
     private long id;
 
     @NotBlank(message = "O nome é obrigatorio")
@@ -20,7 +20,5 @@ public class UsuarioDTO {
 
     @Email(message = "E-mail inválido")
     private String email;
-
-    
 
 }
